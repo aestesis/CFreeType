@@ -1,0 +1,2 @@
+# Cfreetype
+swift freetype2
