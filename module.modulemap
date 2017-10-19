@@ -1,0 +1,7 @@
+module Cfreetype [system] {
+	header "/usr/include/freetype2/ft2build.h"
+	link "fontconfig"
+	link "freetype"
+	link "pangoft2-1.0"
+	export *
+}
