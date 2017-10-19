@@ -1,5 +1,6 @@
 module Cfreetype [system] {
 	header "/usr/include/freetype2/ft2build.h"
+	header "/usr/include/freetype2/freetype/ftbitmap.h"
 	link "fontconfig"
 	link "freetype"
 	link "pangoft2-1.0"
