@@ -1,4 +1,4 @@
-module Cfreetype [system] {
+module CFreeType [system] {
 	header "/usr/include/freetype2/ft2build.h"
 	header "/usr/include/freetype2/freetype/ftbitmap.h"
 	link "fontconfig"
