@@ -9,6 +9,12 @@ let package = Package(
     dependencies: [
     ],
     targets: [
-        .systemLibrary(name: "CFreeType")
+        .systemLibrary(name: "CFreeType",
+            pkgConfig: "freetype2",
+            providers: [
+                .brew("freetype2"), 
+                .apt("libfreetype6-dev")
+            ]
+        )
     ]
 )
