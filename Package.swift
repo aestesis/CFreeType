@@ -2,13 +2,13 @@
 import PackageDescription
 
 let package = Package(
-    name: "Cfreetype",
+    name: "CFreeType",
     products: [
-        .library(name: "Cfreetype",targets: ["Cfreetype"])
+        .library(name: "CFreeType",targets: ["CFreeType"])
     ],
     dependencies: [
     ],
     targets: [
-        .systemLibrary(name: "Cfreetype")
+        .systemLibrary(name: "CFreeType")
     ]
 )
