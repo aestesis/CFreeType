@@ -1,2 +1,2 @@
-# Cfreetype
+# CFreeType
 swift freetype2
